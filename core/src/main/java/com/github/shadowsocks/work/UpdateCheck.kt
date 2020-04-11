@@ -42,7 +42,8 @@ class UpdateCheck(context: Context, workerParams: WorkerParameters) : CoroutineW
         val connection = URL(url).openConnection() as HttpURLConnection
         val json = connection.useCancellable { inputStream.bufferedReader() }
         val info = JsonStreamParser(json).asSequence().single().asJsonObject
-        if (info["version"].asInt > BuildConfig.VERSION_CODE) {
+        var versionNumber = app.applicationContext.packageManager.getPackageInfo(app.packageName,0).versionCode
+        if (info["version"].asInt > versionNumber) {
             val nm = app.getSystemService<NotificationManager>()!!
             val intent = Intent(Intent.ACTION_VIEW).setData(Uri.parse(info["uri"].asString))
             val builder = NotificationCompat.Builder(app as Context, "update")
