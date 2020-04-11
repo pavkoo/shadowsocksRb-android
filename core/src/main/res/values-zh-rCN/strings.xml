@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">酸酸乳</string>
+    <string name="app_name">UCSS</string>
     <string name="quick_toggle">"开关"</string>
     <string name="send_email">"发送电子邮件"</string>
 
@@ -94,10 +94,10 @@
     <!-- menu category -->
     <string name="profiles">"配置文件"</string>
     <string name="settings">"设置选项"</string>
-    <string name="faq">"常见问题"</string>
-    <string name="faq_url">https://github.com/shadowsocksRb/shadowsocksRb-android/blob/master/FAQ.md</string>
+    <string name="faq">"Support"</string>
+    <string name="faq_url">https://undercurrentss.io/</string>
     <string name="about">"关于"</string>
-    <string name="about_title">"ShadowsocksRb %s"</string>
+    <string name="about_title">"UCSS %s"</string>
     <string name="edit">"编辑"</string>
     <string name="share">"分享"</string>
     <string name="add_profile">"添加配置文件"</string>

@@ -74,7 +74,7 @@ Recibido: \t%4$s\t↓\t%2$s"</string>
     <!-- menu category -->
     <string name="profiles">"Perfiles"</string>
     <string name="settings">"Preferencias"</string>
-    <string name="faq">"FAQ"</string>
+    <string name="faq">"Support"</string>
     <string name="about">"Acerca de"</string>
     <string name="edit">"Editar"</string>
     <string name="share">"Compartir"</string>

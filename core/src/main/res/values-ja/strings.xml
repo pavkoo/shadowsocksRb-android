@@ -86,7 +86,7 @@
     <!-- menu category -->
     <string name="profiles">"プロファイル"</string>
     <string name="settings">"オプション設定"</string>
-    <string name="faq">"よくある質問"</string>
+    <string name="faq">"Support"</string>
     <string name="about">"本アプリについて"</string>
     <string name="edit">"編集"</string>
     <string name="share">"共有"</string>

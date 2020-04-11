@@ -22,7 +22,7 @@
 -->
 
 <resources>
-    <string name="app_name">"شدوساکس"</string>
+    <string name="app_name">"UCSS"</string>
     <string name="remote_dns">"دی‌ان‌اس سرور"</string>
     <string name="connection_test_testing">"در حال آزمایش…"</string>
     <string name="connection_test_fail">"ارتباط با اینترنت فراهم نیست"</string>
@@ -74,7 +74,7 @@
     <!-- menu category -->
     <string name="profiles">"پروفایل‌ها"</string>
     <string name="settings">"تنظیمات"</string>
-    <string name="faq">"سوالات متداول"</string>
+    <string name="faq">"Support"</string>
     <string name="about">"درباره ما"</string>
     <string name="edit">"ویرایش"</string>
     <string name="share">"به اشتراک گذاری"</string>
